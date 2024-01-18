@@ -14,6 +14,8 @@ import "./css/Login.css"
 import "./css/loginmediaqueries.css"
 import "./css/Registration.css"
 import "./css/registrationmediaqueries.css"
+import "./css/Header_mediaquerie.css"
+
 
 
 const App=()=>{
