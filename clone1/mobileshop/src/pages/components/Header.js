@@ -78,7 +78,7 @@ const Header = () => {
                         <ul >
                             {/* <Link to="home"><li>Home</li></Link> */}
                             <Link to="home" ><li >Home</li></Link>
-                            <Link to="#"><li>Shop</li></Link>
+                            <Link to="shop"><li>Shop</li></Link>
                             <Link to="#"><li>Blog</li></Link>
                             <Link to="#"><li>Contact Us</li></Link>
                             <Link to="#"><li>About Us</li></Link>

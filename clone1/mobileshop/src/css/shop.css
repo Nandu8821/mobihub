@@ -1,0 +1,42 @@
+
+.banner {
+      width: 100%;
+      height: 400px;
+      /* background-color: blueviolet; */
+      background-image: url(/public/images/shop1.jpg);
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.filter {
+      width: 250px;
+      height: 400px;
+      background-color: rgb(234, 238, 237);
+      border: 1px solid black;
+      
+}
+
+.midrange{
+      width: 80%;
+      margin-left: 260px;
+      height: 150px;
+      margin-top: -400px;
+      background-color: aquamarine;
+      background-image: url(/public/images/shop.jpg);
+}
+
+.main_shop{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+       margin-left: 20%;
+       margin-top: 20px;
+}
+
+
+.shop1 img{
+      width: 250px;
+      height: 350px;
+      /* margin-left: 260px; */
+}
+

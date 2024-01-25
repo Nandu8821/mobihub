@@ -2,7 +2,7 @@ import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import Cartpage from "./pages/cartpage";
-
+import Shop from "./pages/Shop";
 import Login from "./pages/Login";
 import Registration from "./pages/Registration";
 
@@ -15,6 +15,7 @@ import "./css/loginmediaqueries.css"
 import "./css/Registration.css"
 import "./css/registrationmediaqueries.css"
 import "./css/Header_mediaquerie.css"
+import "./css/shop.css"
 
 
 
@@ -27,6 +28,7 @@ const App=()=>{
         <Route path="/" element={<Layout/>} >
           <Route index element={<Home/>} />
           <Route path="/home" element={<Home/>}/>
+          <Route path="/shop" element={<Shop/>}/>
           <Route path="/cartpage" element={<Cartpage/>}/>
           <Route path="/loginpage" element={<Login/>}/>
           <Route path="/registration" element={<Registration/>}/>
